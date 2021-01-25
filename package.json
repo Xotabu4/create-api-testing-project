@@ -1,0 +1,28 @@
+{
+  "name": "create-api-testing-project",
+  "version": "0.0.2",
+  "description": "Use npm init api-testing-project to create new project with basic API testing structure",
+  "main": "create-api-testing-project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleksandr Khotemskyi <xotabu4@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xotabu4/create-api-testing-project"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "template/**/*"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "bin": {
+    "create-api-testing-project": "./index.js"
+  },
+  "dependencies": {
+    "ncp": "2.0.0"
+  }
+}
