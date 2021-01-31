@@ -7,6 +7,7 @@ Includes:
 - GotJS as HTTP client
 - TypeScript and ts-node for better working with request/response models and structures
 - Mocha 8 as a test runner
+- [http-req-builder](https://github.com/Xotabu4/http-req-builder) to simplify building requests.
 
 
 ## Install
@@ -19,11 +20,11 @@ Navigate into it
 ```
 cd ./my-shiny-api-tests
 ```
-Run:
+Run (no installing needed!):
 ```
-npm init create-api-testing-project
+npm init api-testing-project
 ```
-This will copy all project files into current directory. After done, run:
+This will copy all project files into current directory. After done, run (to install your project deps):
 
 ```
 npm install

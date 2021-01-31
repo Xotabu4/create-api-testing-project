@@ -1,6 +1,6 @@
 {
   "name": "create-api-testing-project",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "description": "Use npm init api-testing-project to create new project with basic API testing structure",
   "main": "create-api-testing-project.js",
   "scripts": {
